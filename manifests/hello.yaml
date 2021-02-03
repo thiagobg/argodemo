@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: karthequian/helloworld:latest
+        image: gcr.io/golden-compute/github.com/thiagobg/argodemo:e2614d059f4c92257d0938dbf996cbd627ba5a5f
         ports:
         - containerPort: 80
 ---
